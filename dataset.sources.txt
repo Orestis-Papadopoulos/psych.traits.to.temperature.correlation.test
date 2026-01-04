@@ -1,0 +1,6 @@
+
+"big_five_scores.csv" from:
+github.com/automoto/big-five-data
+
+"combined_temperature.csv" from:
+kaggle.com/datasets/palinatx/mean-temperature-for-countries-by-year-2014-2022?resource=download
