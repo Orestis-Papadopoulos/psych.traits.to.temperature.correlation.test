@@ -83,18 +83,24 @@ y = np.array(mean_temp)
 
 x = np.array(mean_agreeableness)
 plt.scatter(x, y, label = 'agreeableness')
+plt.axvline(x = 0.6902, color = 'tab:blue', label = 'Mean Agreeableness')
 
 x = np.array(mean_extraversion)
 plt.scatter(x, y, label = 'extraversion')
+plt.axvline(x = 0.6676, color = 'tab:orange', label = 'Mean Extraversion')
 
 x = np.array(mean_openness)
 plt.scatter(x, y, label = 'openness')
+plt.axvline(x = 0.7416, color = 'tab:green', label = 'Mean Openness')
 
 x = np.array(mean_conscientiousness)
 plt.scatter(x, y, label = 'conscientiousness')
+plt.axvline(x = 0.7076, color = 'tab:red', label = 'Mean Conscientiousness')
 
 x = np.array(mean_neuroticism)
 plt.scatter(x, y, label = 'neuroticism')
+plt.axvline(x = 0.5621, color = 'tab:purple', label = 'Mean Neuroticism')
 
 plt.legend(loc = "upper center", ncol = 5)
+
 plt.show()
